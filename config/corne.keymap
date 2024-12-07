@@ -89,9 +89,6 @@
             then-layer = <3>;
         };
     };
-RGB_KEY_COLOR(0, 0, 255, 0, 0); // Touche 0 de la couche 0 en rouge
-// RGB_KEY_COLOR(0, 1, 0, 255, 0); // Touche 1 de la couche 0 en vert
-// RGB_KEY_COLOR(1, 0, 0, 0, 255); // Touche 0 de la couche 1 en bleu
 };
 
 &led_strip { chain-length = <27>; };
@@ -100,3 +97,6 @@ RGB_KEY_COLOR(0, 0, 255, 0, 0); // Touche 0 de la couche 0 en rouge
     chain-length = <27>;
 };
 
+&RGB_KEY_COLOR(0, 0, 255, 0, 0); // Touche 0 de la couche 0 en rouge
+// RGB_KEY_COLOR(0, 1, 0, 255, 0); // Touche 1 de la couche 0 en vert
+// RGB_KEY_COLOR(1, 0, 0, 0, 255); // Touche 0 de la couche 1 en bleu
