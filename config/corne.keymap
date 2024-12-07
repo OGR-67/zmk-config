@@ -61,7 +61,7 @@
         setting_layer {
             bindings = <
 &trans      &trans        &trans        &trans        &trans        &trans          &rgb_ug RGB_COLOR_HSB(0,14,94)  &rgb_ug RGB_COLOR_HSB(0,94,49)  &rgb_ug RGB_COLOR_HSB(154,100,39)  &rgb_ug RGB_COLOR_HSB(64,100,50)  &trans           &trans
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &rgb_ug RGB_OFF                 &rgb_ug RGB_ON                  &rgb_ug RGB_EFF                    &rgb_ug RGB_EFR                   &rgb_ug RGB_SPI  &rgb_ug RGB_SPD
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &rgb_ug RGB_BRD                 &rgb_ug RGB_BRI                 &rgb_ug RGB_EFF                    &rgb_ug RGB_EFR                   &rgb_ug RGB_SPI  &rgb_ug RGB_SPD
 &trans      &trans        &trans        &trans        &trans        &trans          &trans                          &trans                          &trans                             &trans                            &trans           &trans
                                         &trans        &trans        &trans          &trans                          &trans                          &trans
             >;
