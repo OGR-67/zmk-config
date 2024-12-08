@@ -21,10 +21,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB     &kp Q        &kp W            &kp E           &kp R             &kp T        &kp Y    &kp U              &kp I                &kp O                 &kp P            &kp BSPC
-&kp ESCAPE  &kp A        &kp S            &kp D           &kp F             &kp G        &kp H    &kp J              &kp K                &kp L                 &kp SEMI         &kp SQT
-&kp DELETE  &mt LCTRL Z  &mt RIGHT_ALT X  &mt LEFT_WIN C  &mt LEFT_SHIFT V  &kp B        &kp N    &mt RIGHT_SHIFT M  &mt RIGHT_WIN COMMA  &mt RIGHT_ALT PERIOD  &mt RCTRL SLASH  &kp BACKSLASH
-                                          &mo 4           &mo 1             &kp SPACE    &kp RET  &mo 2              &kp RIGHT_WIN
+&kp TAB     &kp Q        &kp W            &kp E           &kp R  &kp T        &kp Y           &kp U  &kp I                &kp O                 &kp P            &kp BSPC
+&kp ESCAPE  &kp A        &kp S            &kp D           &kp F  &kp G        &kp H           &kp J  &kp K                &kp L                 &kp SEMI         &kp SQT
+&kp DELETE  &mt LCTRL Z  &mt RIGHT_ALT X  &mt LEFT_WIN C  &kp V  &kp B        &kp N           &kp M  &mt RIGHT_WIN COMMA  &mt RIGHT_ALT PERIOD  &mt RCTRL SLASH  &kp BACKSLASH
+                                          &mo 4           &mo 1  &kp SPACE    &kp LEFT_SHIFT  &mo 2  &kp ENTER
             >;
         };
 
@@ -69,10 +69,10 @@
 
         code {
             bindings = <
-&trans  &trans                &kp LESS_THAN          &kp EQUAL         &kp GREATER_THAN   &trans    &kp PLUS   &trans          &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans     &trans
-&trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans    &kp EQUAL  &kp LEFT_ARROW  &kp DOWN        &kp UP           &kp RIGHT  &kp GRAVE
-&trans  &trans                &trans                 &trans            &trans             &trans    &kp MINUS  &trans          &trans          &trans           &trans     &trans
-                                                     &trans            &trans             &trans    &trans     &trans          &trans
+&trans  &trans                &kp LESS_THAN          &kp EQUAL         &kp GREATER_THAN   &trans    &trans          &trans          &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PLUS   &trans
+&trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT        &kp EQUAL  &kp GRAVE
+&trans  &trans                &trans                 &trans            &trans             &trans    &trans          &trans          &trans          &trans           &kp MINUS  &trans
+                                                     &trans            &trans             &trans    &trans          &trans          &trans
             >;
         };
     };
